@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+<script src="boton.js"></script>
+	<style>
+		#contenido {
+			display: none;
+		}
+	</style>
+
+</head>
+
+<body>
+    <header>
+          
+        <div class="profile">
+            <img src="https://randomuser.me/api/portraits/women/66.jpg" alt="Imagen Cv">
+            <div class="name">
+                <h1>Priscila Belen Aguilera</h1>
+            </div>
+          </div>
+          
+    
+
+        <h2><i class="fas fa-solid fa-bell fa-shake"></i> Perfil Profesional <i class="fas fa-light fa-circle-user"></i></h2>
+    
+        <p>Me atraen mucho los desafíos, perseguir objetivos y conseguir
+            resultados
+            Siempre dispuesta a nuevos aprendizajes.</p>
+        
+      </header>
+      <div class="container">
+        <div class="left-column">
+        <section>
+        <h2>Datos Personales <i class="fas fa-thin fa-user"></i></h2>
+        <hr>
+        <p>Direccion: Av Patria 622</p>
+        <p>Telefono: 3568 - 567741</p>
+        <p>Correo electrónico: cv@gmail.com</p>
+       </section>
+
+       <section>
+        <h2>Educación <i class="fas fa-light fa-book"></i></h2>
+        <hr>
+    
+            <h3>Tec. en Programación</h3>
+            <li>UTN - Cordoba</li>
+            <p>2019 - 2021</p>
+            <p>Finalizado</p>
+          </li>
+
+        </section>
+      </div>
+
+   <div class="right-column">
+      <section>
+        <h2>Experiencia Laboral <i class=" fas fa-thin fa-briefcase"></i></h2>
+        <hr>
+        
+            <h3>Analista Funcional Junior</h3>
+            <p>Empresa: SRC Internacional - 2020- Hasta la fecha</p>
+
+              <li>Manejo de CRM</li>
+              <li>Ampliar cartera de clientes</li>
+              <li>Base de datos</li>
+      </section>
+     
+      
+      <section>
+        <hr>
+         <button onclick="mostrarContenido()">Si quieres conocer mis habilidades haz clic</button>
+	       <div id="contenido">
+         <h2>Habilidades <i class=" fas fa-thin fa-star"></i></h2>
+         <hr>
+          <li>Comunicación efectiva y trabajo en
+                equipo</li>
+           <li>Organización y planificación.
+         </li>
+         <li>Manejo de Excel, PowerPoint, CRM
+           y demás paquete Office.
+
+         </li>
+       </section>
+    </div>
+ </div>
+
+  <form>
+    <h2>¿Coordinamos una entrevista?</h2>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+  
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+  
+    <label for="mensaje">Propuesta Laboral:</label>
+    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+  
+    <button type="submit">Enviar</button>
+  </form>
+    
+</body>
+</html>
